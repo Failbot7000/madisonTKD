@@ -1,0 +1,256 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-US" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Madison Taekwondo School</title>
+	<style>
+		body,li,ol,nav,h1,p{
+			display: block;
+			margin-top: -8px;
+		}
+		body {
+			background-color: white;
+			background: url(images/background.png);
+            background-position:center;
+			}
+		a {
+       		padding-left:15px;
+			padding-right:15px;       
+			text-decoration: none;
+			color: white;
+			}
+		ul li {
+   			 display:inline;
+			}
+		ul li{
+		    margin: 5px;
+			}
+		a:hover {
+            color: blue;
+
+			}
+		a:active {
+       		 color: darkblue;
+             text-decoration: underline;
+             background-color: lightgreen;                                                            
+			}
+		a:visited {                                                             
+			}
+		h1 {
+			text-align:center; 
+			padding-top: 0px;
+			}	
+		#footer{
+    		position:fixed;
+   			bottom:0px;
+    		text-align:center;
+    		background-color: grey;
+    		max-width: 1200px;
+    		margin: 0 -1px;
+			width: 100%;
+			}
+		#topnav {
+
+			background-color: grey; 
+			max-width: 1200px;
+			margin: 0 -1px;
+			text-align: right;
+			padding-top: 0px;
+			}
+		#toplinks {
+			display:inline; 
+			width: 100%; 
+			margin:0 auto; 
+			padding-left:0px; 
+			padding-right:0px; 
+			list-style-type:none;
+			max-width:1200px;
+			padding-top: 40px;
+			
+			}
+		#bodysize {
+			max-width:1200px; 
+			margin: 0 auto;
+
+			}
+		#content {
+			text-align: left; 
+			padding: 0px 20px 0px 20px;
+			margin-bottom: 20px;
+			}
+		#contaner {
+				max-width: 1200px;
+				margin: 0 auto;
+			}
+		.slideshow {
+				display: block;
+				float: right; 
+				border: 2px solid red; 
+				text-align:center; 
+				font: size: 24pt;
+			}
+		.floatleft {
+			float:left;
+			padding-left: 20px;	
+			}
+		.floatright	{
+			float:right;
+			padding-right:20px;
+			padding-left: 20px;
+		}	
+		.clear {
+			clear:both;
+		}	
+		.slider {
+			margin: 20px auto 10px auto;
+			width: 625px;
+			height: 345px;	
+
+			}
+		.slideimage {
+			width: 700px ;
+			height: 350px ;
+			margin: 0 auto;
+			width: 100%;
+		}
+		.imagecontainer {
+			margin: 0 auto;
+			width: 100%;
+			display: block;
+			padding-bottom: 40px;
+		}
+		@media (max-width: 1024px) and (min-width: 781px){
+            ul li {
+                margin: 5px
+                }
+			.movenav {
+				clear:both;
+				}
+			}
+		@media (max-width: 780px) and (min-width: 481px) {
+			.movenav {
+				clear:both;
+			}
+			}
+			ul li {
+                margin: 5px
+            }
+		@media (max-width: 480px) {
+			.movenav {
+				clear:both;
+				}
+			ul li {
+                margin: 5px
+            }
+			.slideimage {
+				width: 400px;
+				height: 200px;
+			}
+			.imagecontainer {
+				margin: 0 auto;
+				width: 100%;
+				display: block;
+				margin-bottom: -160px;
+			}
+
+		}
+</style>
+	<link href="/slick/slick.css" rel="stylesheet" type="text/css" />
+	<link href="/slick/slick-theme.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.js"></script>
+
+<script language="javascript">
+$(document).ready(function(){
+  $('.slider').slick({
+     rtl: false,
+	autoplay: true,
+	autoplaySpeed: 7000,
+	dots: true
+	
+  });
+});
+
+</script>
+</head>
+<body id="bodysize">
+
+	<div id="topnav">
+		<div style="margin: 0 auto; text-align: left; float: left;"><a style="padding-left: 0px; padding-right: 0;" href=""><img src="images/logo.jpg" style="width: 600px; padding-left: 0px; text-align: left;"></a></div>
+		<div class="movenav"></div>
+		<nav>	
+			<ul id="toplinks">
+				<div style="padding-top: 40px; padding-right: 15px;">
+				<li><a href="">Link</a></li>
+				<li><a href="">Link</a></li>
+				<li><a href="">Link</a></li>
+				<li><a href="">Link</a></li>
+				<li><a href="">Link</a></li>
+				<li><a href="">Link</a></li>
+				<li><a href="">Link</a></li>
+				</div>
+			</ul>
+		</nav>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="imagecontainer">
+		<div class="slider">
+				<div><img src="images/image1.jpg" class="slideimage"/></div>
+				<div><img src="images/image2.jpg" class="slideimage"/></div>
+				<div><img src="images/image3.jpg" class="slideimage"/></div>
+				<div><img src="images/image4.jpg" class="slideimage"/></div>
+				<div><img src="images/image5.jpg" class="slideimage"/></div>
+		</div>
+	</div>
+	<div class="clear">
+	<div id="bodysize">
+		<div  id="content">
+			<h3>Introduction</h3>
+			<div id="message">
+				<p>Greetings, and welcome to the Madison Tae Kwon Do School! In your search for suitable martial arts instruction, you have chosen wisely. The Madison Tae Kwon Do School is a traditional Chung Do Kwon academy dedicated to furthering the progress of individuals and their well-being by raising spiritual, moral, and physical standards through Tae Kwon Do.</p>
+				<p>In brief, Tae Kwon Do is the Korean method of weaponless self-defense. The Chung Do Kwon style of Tae Kwon Do is the most traditional and purest form of Tae Kwon Do, tracing its roots back thousands of years. Chung Do Kwon translates to â€œBlue Waveâ€, and it is synonymous with the timeless power and fluidity of the oceanâ€™s waves.</p>
+				<p>When beginning martial arts, anyone can benefit from this type of training; however enrolling in just any martial arts class will not necessarily be effective. Because of the differences between the Chung Do Kwon and other institutions (stricter disciplinary control and selectivity), graduates of the Chung Do Kwon style develop a superb mental and physical condition. It is difficult to find a true master, but graduates of the Chung Do Kwon Institute are the best. Many instructors who consider themselves masters from other forms, institutions, or styles are currently teaching in the United States even though they are not really qualified to high Chung Do Kwon standards. A true master is needed, someone who has a higher education, years of experience, and extensive training through a reputable institute. This is what we are all about.</p>
+				<p>The Madison Tae Kwon Do School was the first Tae Kwon Do School in Wisconsin, and the third in the United States. Grand Master J.B. Chung is a certified 9th degree black belt with over 40 years of teaching experience. Through his special teaching techniques and strict supervision, students learn not only self-defense tactics, but are also trained to learn how to relax, control their emotions, respect authority, and discipline themselves in many areas of life.</p>
+				<p>New students receive personal instruction for the first few lessons. They then progress from beginner classes through the various steps of learning to intermediate and more advanced sessions until the combined techniques of Tae Kwon Do are mastered. All students progress according to their own individual rate of achievement.</p>
+				<p>The ability to employ Tae Kwon Do techniques for self-defense is a natural outcome of the development of self-confidence and bodily control learned in class, but it is not the only thing. We focus on the integration of the mind, body, and spirit not only in Tae Kwon Do, but also in all aspects of life. We truly are more than just kicking and punching. </p>
+			</div>
+			<br class="clear">
+			<div class="floatleft">
+				<h3>LOCATION</h3>
+					<p>
+						Madison Tae Kwon Do School<br />
+						1304 South Midvale Blvd.<br />
+						Madison, WI 53711&nbsp<br />
+						(608) 271-9600 
+					</p>
+			</div>
+			<div class="floatright">
+				<h3>BUSINESS HOURS</h3>
+				<p>
+					Monday - Thursday 12:00 PM - 8:00 PM<br />
+					Friday (By Appointment Only)<br />
+					Saturday 10:00 AM - 12:30 PM<br />
+					Closed Sunday 
+				</p>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<div class="clear" style="padding-bottom: 40px;"></div>
+		<div ></div>
+		<div id="footer">
+			<hr>
+			<nav>
+				<ul>
+					<li><a href="">Link</a></li><!--Footer links, spaced out and stuff-->
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+					<li><a href="">Link</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+</body>
+</html>
